@@ -1,0 +1,10 @@
+import platform
+print('Version: ', platform.python_version())
+print('Version tuple: ', platform.python_version_tuple())
+print('Compiler: ', platform.python_compiler())
+print('Build: ', platform.python_build())
+print('Machine Type: ', platform.machine())
+print('Node: ', platform.node())
+print('Processor: ', platform.processor())
+print('interpreter:', platform.architecture())
+print( '/bin/ls    :', platform.architecture('/bin/ls'))

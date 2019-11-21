@@ -1,0 +1,3 @@
+This PCM is to configure the interface and IP ping test for a transit circuit between Twitter and Telxius in SAO1.
+The master JIRA ticket for this circuit is CORENET-938.
+As this does doesn't involve turning up RSVP,  ISIS, and MPLS - there should be no production impact.

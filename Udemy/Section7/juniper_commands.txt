@@ -1,0 +1,3 @@
+run show version
+run show int description
+run show int terse

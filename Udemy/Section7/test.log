@@ -1,0 +1,283 @@
+DEBUG:paramiko.transport:starting thread (client mode): 0x120a9e10L
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.6
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.6)
+DEBUG:paramiko.transport:kex algos:[u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-dss', u'ssh-ed25519'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] client mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 10.1.10.200: 86a4ce48043e0d1f8767a447d800984e
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: --- JUNOS 12.1X46-D55.3 built 2016-07-08 18:46:54 UTC
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: set cli screen-length 0
+
+DEBUG:netmiko:write_channel: set cli screen-length 0
+
+DEBUG:netmiko:Pattern is: ftrijillo\@bhaloo\-srx
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> set cli screen-length 0 
+Screen length set to 0
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:Pattern found: ftrijillo\@bhaloo\-srx 
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> set cli screen-length 0 
+Screen length set to 0
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:
+
+ftrijillo@bhaloo-srx> 
+
+ftrijillo@bhaloo-srx> set cli screen-length 0 
+Screen length set to 0
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: set cli screen-width 511
+
+DEBUG:netmiko:Pattern is: ftrijillo\@bhaloo\-srx
+DEBUG:netmiko:_read_channel_expect read_data: set cli screen-width 511 
+Screen width set to 511
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:Pattern found: ftrijillo\@bhaloo\-srx set cli screen-width 511 
+Screen width set to 511
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: configure
+
+DEBUG:netmiko:Pattern is: ftrijillo\@bhaloo\-srx
+DEBUG:netmiko:_read_channel_expect read_data: configure 
+DEBUG:netmiko:_read_channel_expect read_data: 
+Entering configuration mode
+
+[edit]
+ftrijillo@bhaloo-srx# 
+DEBUG:netmiko:Pattern found: ftrijillo\@bhaloo\-srx configure 
+Entering configuration mode
+
+[edit]
+ftrijillo@bhaloo-srx# 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+[edit]
+ftrijillo@bhaloo-srx# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+[edit]
+ftrijillo@bhaloo-srx# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: set interface fe-0/0/3 description test_description
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: set interfaces fe-0/0/3 description test_description 
+
+[edit]
+ftrijillo@bhaloo-srx# 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+[edit]
+ftrijillo@bhaloo-srx# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: commit comment "Commit Test" and-quit
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: commit comment "Commit Test" and-quit 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: commit complete
+Exiting configuration mode
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+ftrijillo@bhaloo-srx> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: show interface description
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show interfaces description
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: s 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: Interface       Admin Link Description
+fe-0/0/3        up    down test_description
+
+ftrijillo@bhaloo-srx> 
+DEBUG:paramiko.transport:EOF in transport thread
